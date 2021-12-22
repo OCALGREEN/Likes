@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div class="navigation-bar flex align-center justify-between">                  <!--Navigation Bar-->
+        <h1>Network</h1>
+    </div>
+    <div class="feed-bar flex align-center justify-between">                        <!--Your Feed Bar-->
+        <h1>Your Feed</h1>
+    </div>
+
+    <div class="container flex align-center">                                       <!--Main Container-->
+        <div class="column1 flex1">                                                 <!--Column 1-->
+            <div class="user-box">                                                  <!--User Card-->
+                <img src="img\user-circle.png" alt="" width="50px" height="50px">
+                <a href="">Add an Avatar</a>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+
+        <div class="column2 flex2">                                                 <!--Column 2-->
+            <div class="info-box">                                                  <!--Info Card 1-->
+                <div class="info-box-likes flex align-center justify-between">
+                    <h2>Neil M</h2>
+                    <h3 id="count1">9 like(s)</h3>
+                    <button onclick="vote('#count1')">Like</button>
+                </div>
+                <div class="info-box-info">
+                    <p>I just set up this new discord bot, let me know what you all think <a href="">link</a></p>
+                </div>
+            </div>
+
+            <div class="info-box">                                                  <!--Info Card 2-->
+                <div class="info-box-likes flex align-center justify-between">
+                    <h2>Nichole K</h2>
+                    <h3 id="count2">12 like(s)</h3>
+                    <button onclick="vote('#count2')">Like</button>
+                </div>
+                <div class="info-box-info">
+                    <p>Just finished my <a href="">next comic</a> check it out</p>
+                </div>
+            </div>
+
+            <div class="info-box">                                                  <!--Info Card 3-->
+                <div class="info-box-likes flex align-center justify-between">
+                    <h2>Jim R</h2>
+                    <h3 id="count3">9 like(s)</h3>
+                    <button onclick="vote('#count3')">Like</button>
+                </div>
+                <div class="info-box-info">
+                    <p>I can't stop listening to the <a href="">new album.</a> Who else is listening?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
